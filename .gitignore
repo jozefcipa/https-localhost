@@ -1,3 +1,2 @@
-certs/*
-
-!.gitkeep
+certs/cert.key
+certs/cert.pem

@@ -10,5 +10,5 @@ You need to generate an SSL certificate and have a HTTP server, we use nginx for
 
 By default the proxy redirects all trafic from `127.0.0.1:443` to `127.0.0.1:3000` but you can customize the port in `Makefile`.
 
-If you want to use the proxy with more ports (applications), you will need to update `nginx/sites.conf` and add another `location` block.
+If you want to use the proxy with more ports (applications), you will need to update `nginx/sites.conf` and add another `server` block.
 [Learn more](https://jozefcipa.com/blog/running-https-on-localhost)
